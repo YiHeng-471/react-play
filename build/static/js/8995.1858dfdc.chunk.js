@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkreact_play=globalThis.webpackChunkreact_play||[]).push([[8995],{8995(e,a,p){e.exports=p.p+"static/media/cover.ee89516eaeb18f1e3728.png"}}]);
