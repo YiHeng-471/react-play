@@ -74,7 +74,7 @@ test('What our section - testimonials is visible, slider is clickable & str to p
   await page.waitForLoadState('networkidle');
   await expect(testimonialsSection.testimonialsTitle).toContainText('What Our Community Says!');
   // pagination swipier check
-  await expect(testimonialsSection.swiperPagination).toBeEditable();
+  await expect(testimonialsSection.swiperPagination).toBeEnabled();
   await expect(testimonialsSection.swiperinitialized).toBeVisible();
   // nav check
   await testimonialsSection.viewAllTestimonial.click();

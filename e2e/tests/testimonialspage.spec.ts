@@ -11,6 +11,6 @@ test('testimonial page is visible, header is visible and btn is clickable ', asy
   expect(page.url()).toMatch(/testimonials/);
   await page.waitForLoadState('networkidle');
   await expect(testimonialsPage.testimonialsTitle).toContainText('What Our Community Says!');
-  expect(testimonialsPage.testimonialsBtn).toBeEditable();
-  expect(testimonialsPage.testimonialCards).toBeVisible();
+  await expect(testimonialsPage.testimonialsBtn).toBeEnabled();
+  await expect(testimonialsPage.testimonialCards).toBeVisible();
 });

@@ -98,14 +98,14 @@ export class Home {
     await expect(this.appLogo).toBeVisible();
     // assertion of header static informations
     await expect(this.browseBtn).toHaveText('Browse');
-    await expect(this.eventBtn).toBeEditable();
-    await expect(this.createBtn).toBeEditable();
-    await expect(this.leaderboardBtn).toBeEditable();
-    await expect(this.ideasBtn).toBeEditable();
-    await expect(this.githubBtn).toBeEditable();
-    await expect(this.twitterBtn).toBeEditable();
-    await expect(this.discordBtn).toBeEditable();
-    await expect(this.shareBtn).toBeEditable();
+    await expect(this.eventBtn).toBeEnabled();
+    await expect(this.createBtn).toBeEnabled();
+    await expect(this.leaderboardBtn).toBeEnabled();
+    await expect(this.ideasBtn).toBeEnabled();
+    await expect(this.githubBtn).toBeEnabled();
+    await expect(this.twitterBtn).toBeEnabled();
+    await expect(this.discordBtn).toBeEnabled();
+    await expect(this.shareBtn).toBeEnabled();
   }
 
   async footerVisibleClickable() {
