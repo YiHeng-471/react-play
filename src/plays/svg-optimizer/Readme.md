@@ -19,8 +19,9 @@ A powerful React-based SVG optimizer that allows users to paste or upload SVG co
 This SVG Optimizer is built using React.js with the following features and concepts:
 
 ### React Concepts Used:
+
 - **Functional Components**: All components are functional components using modern React syntax
-- **React Hooks**: 
+- **React Hooks**:
   - `useState` for managing component state (SVG input, optimization options, file sizes)
   - `useEffect` for automatically optimizing SVG when input or options change
 - **Controlled Inputs**: Text areas and checkboxes are fully controlled components
@@ -28,6 +29,7 @@ This SVG Optimizer is built using React.js with the following features and conce
 - **Component Composition**: Reusable components (OptimizationPanel, PreviewPanel)
 
 ### Key Features:
+
 1. **Multiple Input Methods**:
    - Paste SVG code directly
    - Upload SVG files
@@ -58,6 +60,7 @@ This SVG Optimizer is built using React.js with the following features and conce
    - Download optimized SVG file
 
 ### Technical Implementation:
+
 - **Client-side Processing**: All optimization happens in the browser with no backend required
 - **File API**: Uses FileReader for handling file uploads
 - **Blob API**: Creates downloadable files without server interaction

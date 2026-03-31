@@ -37,8 +37,6 @@
   padding-top: 64px;
 }
 
-
-
 @media screen and (max-width: 768px) {
   .app-header {
     padding: 0 1rem 0 0.2rem;
@@ -329,8 +327,8 @@
 
 .header-links > li > .app-header-btn.app-header-btn--secondary:hover,
 .header-links > li > .app-header-btn.app-header-btn--secondary:focus {
-border-color: var(--color-brand-primary);
-background-color: var(--color-neutral-10);
+  border-color: var(--color-brand-primary);
+  background-color: var(--color-neutral-10);
 }
 
 .header-links > li > .app-header-btn.app-header-btn--secondary {

@@ -62,19 +62,20 @@ TDEE represents the total calories your body burns in a day including all physic
 It is calculated by multiplying BMR with an activity multiplier.
 
 Formula:
+
 ```text
 TDEE = BMR × activity_multiplier
 ```
 
 Activity multipliers used:
 
-| Activity Level | Multiplier |
-|---------------|------------|
-| Sedentary | 1.2 |
-| Light Activity | 1.375 |
-| Moderate Activity | 1.55 |
-| Active | 1.725 |
-| Very Active | 1.9 |
+| Activity Level    | Multiplier |
+| ----------------- | ---------- |
+| Sedentary         | 1.2        |
+| Light Activity    | 1.375      |
+| Moderate Activity | 1.55       |
+| Active            | 1.725      |
+| Very Active       | 1.9        |
 
 ---
 

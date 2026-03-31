@@ -73,4 +73,3 @@ This ensures clean separation of logic and presentation.
 - Clean and reusable component structure
 
 ---
-

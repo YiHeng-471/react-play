@@ -424,11 +424,11 @@
     flex-direction: column;
     height: auto;
   }
-  
+
   .layer-panel {
     width: 100%;
   }
-  
+
   .canvas-container {
     min-height: 500px;
   }
@@ -438,16 +438,16 @@
   .toolbar {
     gap: 15px;
   }
-  
+
   .toolbar-section {
     width: 100%;
   }
-  
+
   .whiteboard-canvas {
     width: 100% !important;
     height: 400px !important;
   }
-  
+
   .slider {
     width: 100%;
   }
